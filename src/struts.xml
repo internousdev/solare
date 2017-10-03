@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<package name="com.internousdev.solare.action" extends="struts-default">
+
+		<action name="GoToReservationPageAction"
+			class="com.internousdev.solare.action.GoToReservationPageAction"
+			method="execute">
+			<result name="success">/Login.jsp</result><!-- Reservationボタンの遷移先 -->
+			<result name="error">/Error.jsp</result>
+		</action>
+
+		<action name="LoginCheckAction" class="com.internousdev.solare.action.LoginCheckAction"
+			method="execute">
+			<result name="success">/Login.jsp</result>
+			<result name="skip">/ReservationConfirm.jsp</result>
+			<result name="error">/Error.jsp</result>
+		</action>
+
+		<action name="LoginAction" class="com.internousdev.solare.action.LoginAction"
+			method="execute">
+			<result name="success">/Reservation.jsp</result>
+			<result name="goMyPage">/MyPage.jsp</result>
+			<result name="goReservation">/Reservation.jsp</result>
+			<result name="error">/Login.jsp</result>
+		</action>
+		<!-- Facebook認証を行うアクション -->
+		<action name="login-facebook" class="com.internousdev.solare.action.GoFacebookAction" method="execute">
+            <result name="success">index.jsp</result>
+            <result name="error">login.jsp</result>
+		</action>
+
+		<!-- Facebook認証のコールバックアクション -->
+		<action name="login-facebook-action" class="com.internousdev.solare.action.LoginFacebookAction" method="execute">
+            <result name="success" type="redirectAction">main</result>
+            <result name="error">login.jsp</result>
+		</action>
+
+	    <!-- Twitter認証を行うアクション -->
+		<action name="login-twitter" class="com.internousdev.solare.action.GoTwitterAction" method="execute">
+           <result name="success">index.jsp</result>
+           <result name="error">login.jsp</result>
+       </action>
+
+		<!-- Twitter認証のコールバックアクション -->
+		<action name="login-twitter-action" class="com.internousdev.solare.action.LoginTwitterAction" method="execute">
+			<result name="success" type="redirectAction">main</result>
+			<result name="error">login.jsp</result>
+        </action>
+
+		<action name="GoToNewUserPageAction"
+			class="com.internousdev.solare.action.GoToNewUserPageAction" method="execute">
+			<result name="success">/NewUser.jsp</result>
+		</action>
+
+		<action name="GoToNewUserConfirmPageAction"
+			class="com.internousdev.solare.action.GoToNewUserConfirmPageAction"
+			method="execute">
+			<result name="success">/NewUserConfirm.jsp</result>
+			<result name="error">/NewUser.jsp</result>
+		</action>
+
+		<action name="NewUserRegisterCompleteAction"
+			class="com.internousdev.solare.action.NewUserRegisterCompleteAction"
+			method="execute">
+			<result name="success">NewUserComplete.jsp</result>
+			<result name="goMyPage">MyPage.jsp</result>
+			<result name="error">Error.jsp</result>
+		</action>
+
+
+		<action name="GoToPaymentInformationPageAction"
+			class="com.internousdev.solare.action.GoToPaymentInformationPageAction"
+			method="execute">
+			<result name="success">/PaymentInformation.jsp</result>
+		</action>
+
+			<action name="BackPageAction"
+			class="com.internousdev.solare.action.BackPageAction"
+			method="execute">
+			<result name="success">/Reservation.jsp</result>
+		</action>
+
+<!-- 		<action name="BackPage2Action" -->
+<!-- 			class="com.internousdev.solare.action.BackPage2Action" -->
+<!-- 			method="execute"> -->
+<!-- 			<result name="success">/PaymentInformation.jsp</result> -->
+<!-- 		</action> -->
+
+		<action name="GoToReservationConfirmationPageAction"
+			class="com.internousdev.solare.action.GoToReservationConfirmationPageAction"
+			method="execute">
+			<result name="success">/ReservationConfirm.jsp</result>
+			<result name="error">/PaymentInformation.jsp</result>
+		</action>
+
+		<action name="ReservationCompleteAction"
+			class="com.internousdev.solare.action.ReservationCompleteAction"
+			method="execute">
+			<result name="success">/ReservationComplete.jsp</result>
+			<result type="chain" name="error">GoToReservationPageAction</result>
+		</action>
+
+		<action name="GoToMyPageAction" class="com.internousdev.solare.action.GoToMyPageAction"
+			method="execute">
+			<result name="success">/MyPage.jsp</result>
+			<result name="error">/Login.jsp</result>
+		</action>
+
+		<action name="GoToCustomerEditPageAction"
+			class="com.internousdev.solare.action.GoToCustomerEditPageAction"
+			method="execute">
+			<result name="success">/CustomerEdit.jsp</result>
+			<result name="error">/Error.jsp</result>
+			<result name="notSession">/Login.jsp</result>
+		</action>
+
+		<action name="GoToCustomerEditConfirmPageAction"
+			class="com.internousdev.solare.action.GoToCustomerEditConfirmPageAction"
+			method="execute">
+			<result name="success">/CustomerEditConfirm.jsp</result>
+			<result name="error">/CustomerEdit.jsp</result>
+		</action>
+
+		<action name="ChangeCustomerInfoCompleteAction"
+			class="com.internousdev.solare.action.ChangeCustomerInfoCompleteAction"
+			method="execute">
+			<result name="success">/CustomerEditComplete.jsp</result>
+		</action>
+
+		<action name="GoToReservationEditPageAction"
+			class="com.internousdev.solare.action.GoToReservationEditPageAction"
+			method="execute">
+			<result name="success">/ReservationEdit.jsp</result>
+			<result name="error">/MyPage.jsp</result>
+			<result name="notSession">/Login.jsp</result>
+		</action>
+
+
+		<action name="GoToReservationEditConfirmPageAction"
+			class="com.internousdev.solare.action.GoToReservationEditConfirmPageAction"
+			method="execute">
+			<result name="success">/ReservationEditConfirm.jsp</result>
+			<result name="error">/Login.jsp</result>
+		</action>
+
+		<action name="LogOutAction" class="com.internousdev.solare.action.LogOutAction"
+			method="execute">
+			<result name="success">/Login.jsp</result>
+			<result name="error">/Error.jsp</result>
+		</action>
+
+		<action name="ReturnCustomerEditAction"
+			class="com.internousdev.solare.action.ReturnCustomerEditAction"
+			method="execute">
+			<result name="success">CustomerEdit.jsp</result>
+		</action>
+
+		<action name="ReturnNewUserAction"
+			class="com.internousdev.solare.action.ReturnNewUserAction" method="execute">
+			<result name="success">/NewUser.jsp</result>
+		</action>
+
+		<action name="GoToCancelAction" class="com.internousdev.solare.action.GoToCancelAction"
+			method="execute">
+			<result name="success">Cancel.jsp</result>
+		</action>
+
+		<action name="AllDeleteReservationAction"
+			class="com.internousdev.solare.action.AllDeleteReservationAction"
+			method="execute">
+			<result name="success">CancelComplete.jsp</result>
+		</action>
+
+		<action name="LeaveAction" class="com.internousdev.solare.action.LeaveAction"
+			method="execute">
+			<result name="success">LeaveComplete.jsp</result>
+		</action>
+
+		<action name="ReservationEditCompleteAction"
+			class="com.internousdev.solare.action.ReservationEditCompleteAction"
+			method="execute">
+			<result name="success">ReservationEditComplete.jsp</result>
+			<result type="chain" name="error">GoToReservationEditPageAction</result>
+		</action>
+
+		<action name="GoToLeaveAction" class="com.internousdev.solare.action.GoToLeaveAction"
+			method="execute">
+			<result name="success">Leave.jsp</result>
+		</action>
+
+		<action name="ReturnReservationPageAction" class="com.internousdev.solare.action.ReturnReservationPageAction"
+			method="execute">
+			<result name="success">Reservation.jsp</result>
+		</action>
+
+		<action name="ReturnTopAction" class="com.internousdev.solare.action.ReturnReservationPageAction"
+			method="execute">
+			<result name="success">Top.jsp</result>
+		</action>
+
+
+	</package>
+</struts>
