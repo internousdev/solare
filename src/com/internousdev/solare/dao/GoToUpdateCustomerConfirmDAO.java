@@ -81,7 +81,7 @@ public class GoToUpdateCustomerConfirmDAO {
 		Connection con = db.getConnection();
 
 		try {
-			String sql = "select * from customerID_info where customer_id=?";
+			String sql = "select * from customerid_info where customer_id=?";
 			PreparedStatement ps;
 			ps = con.prepareStatement(sql);
 			ps.setString(1, userId);

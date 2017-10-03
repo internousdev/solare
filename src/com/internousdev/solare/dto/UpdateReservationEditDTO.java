@@ -3,7 +3,6 @@ package com.internousdev.solare.dto;
 /**
  * UpdateReservationEditDTO アップデートリザベーションエディットディーティーオー
  *
- * @author 松本雄太
  * @since 2015/04/14
  * @version 1.0
  */
@@ -12,7 +11,6 @@ public class UpdateReservationEditDTO {
 	/**
 	 * 会員予約番号
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -21,7 +19,6 @@ public class UpdateReservationEditDTO {
 	/**
 	 * コース番号
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -30,7 +27,6 @@ public class UpdateReservationEditDTO {
 	/**
 	 * 予約人数
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -39,7 +35,6 @@ public class UpdateReservationEditDTO {
 	/**
 	 * 予約時間
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -48,7 +43,6 @@ public class UpdateReservationEditDTO {
 	/**
 	 * 来店日時
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -57,7 +51,6 @@ public class UpdateReservationEditDTO {
 	/**
 	 * 予約番号
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -66,7 +59,6 @@ public class UpdateReservationEditDTO {
 	/**
 	 * アカウント番号
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */

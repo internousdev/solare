@@ -13,7 +13,6 @@ import com.internousdev.solare.util.DBConnector;
 /**
  * GoToCustomerInfoEditDAO 会員情報リストから会員情報を検索するためのクラス
  *
- * @author 岡部吉男
  * @since 2015/04/16
  * @version 1.0
  */
@@ -22,7 +21,6 @@ public class GoToCustomerInfoEditDAO {
 	/**
 	 * 会員情報リスト
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -31,7 +29,6 @@ public class GoToCustomerInfoEditDAO {
 	/**
 	 * 会員情報検索メソッド
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 */
 	public void select(int accountNumber) {
@@ -65,7 +62,6 @@ public class GoToCustomerInfoEditDAO {
 	/**
 	 * 会員情報リスト取得メソッド
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @return userInfoList 会員情報リスト
 	 */

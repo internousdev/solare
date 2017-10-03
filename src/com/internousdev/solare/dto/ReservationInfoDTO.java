@@ -5,7 +5,6 @@ import java.sql.Timestamp;
 /**
  * ReservationInfoDTO リザベーションインフォディーティーオー
  *
- * @author 佐藤裕也
  * @since 2015/04/20
  * @version 1.0
  *
@@ -15,7 +14,6 @@ public class ReservationInfoDTO {
 	/**
 	 * 顧客予約番号
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/20
 	 * @version 1.0
 	 */
@@ -24,7 +22,6 @@ public class ReservationInfoDTO {
 	/**
 	 * コース番号
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/20
 	 * @version 1.0
 	 */
@@ -33,7 +30,6 @@ public class ReservationInfoDTO {
 	/**
 	 * 予約人数
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/20
 	 * @version 1.0
 	 */
@@ -42,7 +38,6 @@ public class ReservationInfoDTO {
 	/**
 	 * 来店日時
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/20
 	 * @version 1.0
 	 */
@@ -51,7 +46,6 @@ public class ReservationInfoDTO {
 	/**
 	 * 来店日文字列型
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/20
 	 * @version 1.0
 	 */
@@ -60,7 +54,6 @@ public class ReservationInfoDTO {
 	/**
 	 * コース滞在時間
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/20
 	 * @version 1.0
 	 */
@@ -69,7 +62,6 @@ public class ReservationInfoDTO {
 	/**
 	 * 来店時間文字列型
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/20
 	 * @version 1.0
 	 */
@@ -78,7 +70,6 @@ public class ReservationInfoDTO {
 	/**
 	 * コース名
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/20
 	 * @version 1.0
 	 */

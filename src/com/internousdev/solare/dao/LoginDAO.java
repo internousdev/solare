@@ -6,26 +6,21 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-
-import org.apache.struts2.interceptor.SessionAware;
 
 import com.internousdev.solare.dto.LoginDTO;
-import com.internousdev.solare.util.MySQLConnector;;
+import com.internousdev.solare.util.DBConnector;;
 
 /**
  * LoginDAO ログインするためのクラス
  *
- * @author 半田晃邦
  * @since 2015/04/06
  * @version 1.0
  */
-public class LoginDAO implements SessionAware {
+public class LoginDAO {
 
 	/**
 	 * 会員情報リスト
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/06
 	 * @version 1.0
 	 */
@@ -34,14 +29,14 @@ public class LoginDAO implements SessionAware {
 	/**
 	 * ログイン情報取得メソッド
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/06
 	 * @return result 結果
 	 * @throws SQLException
 	 */
 	public boolean isLoginCheck(String userId, String userPassword) throws SQLException {
 		boolean result = false;
-		Connection con = MySQLConnector.getConnection("openconnect");
+		DBConnector db = new DBConnector();
+		Connection con = db.getConnection();
 
 		try {
 			String sql = "select * from user where user_id=? AND password=?";
@@ -73,23 +68,11 @@ public class LoginDAO implements SessionAware {
 	/**
 	 * ユーザー情報リスト取得メソッド
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/06
 	 * @return userInfoList 会員情報リスト
 	 */
 	public List<LoginDTO> getUserInfoList() {
 		return userInfoList;
 	}
-
-	/**
-	 * セッション格納メソッド
-	 *
-	 * @author 半田晃邦
-	 * @since 2015/04/06
-	 * @param session
-	 *            セッション情報
-	 */
-	public void setSession(Map<String, Object> session) {
-	}
-
 }
+

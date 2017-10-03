@@ -5,7 +5,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * ReturnCustomerEditAction 会員情報変更画面に遷移するアクション
  *
- * @author 佐藤裕也
  * @since 2015/04/20
  * @version 1.0
  */
@@ -14,15 +13,11 @@ public class ReturnCustomerEditAction extends ActionSupport {
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/20
 	 * @version 1.0
 	 */
 	private static final long serialVersionUID = -5091184302211138954L;
 
-	/**
-	 *
-	 */
 
 	/**
 	 * 実行メソッド

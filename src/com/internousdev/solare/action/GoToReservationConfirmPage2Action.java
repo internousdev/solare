@@ -8,7 +8,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * GoToReservationConfirmPage2Action
  *
- * @author 牧野 秀徳
  * @sinse 206/4/06
  * @version 1.0
  */
@@ -17,7 +16,6 @@ public class GoToReservationConfirmPage2Action extends ActionSupport {
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -26,8 +24,7 @@ public class GoToReservationConfirmPage2Action extends ActionSupport {
 	/**
 	 * 実行メソッド
 	 *
-	 * @author 牧野 秀徳
-	 * @sinse 206/4/06
+	 * @sinse 206/04/06
 	 * @return result 結果
 	 */
 	public String execute() {

@@ -14,7 +14,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * GoToCustomerEditConfirmPageAction 変更した会員情報の確認用アクション
  *
- * @author 岡部吉男
  * @since 2015/04/16
  * @version 1.0
  */
@@ -23,7 +22,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -32,7 +30,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 会員情報リスト
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -41,7 +38,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 苗字
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -50,7 +46,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 名前
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -59,7 +54,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 電話番号
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -68,7 +62,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * メールアドレス
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -77,7 +70,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 性別
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -86,7 +78,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * ユーザーID
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -95,7 +86,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * ユーザーパスワード
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -104,7 +94,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 新苗字
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -113,7 +102,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 新名前
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -122,7 +110,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 新電話番号
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -131,7 +118,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 新メールアドレス
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -140,7 +126,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 新性別
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -149,7 +134,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 新ユーザID
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -158,7 +142,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 新ユーザーパスワード
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -167,7 +150,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 新確認パスワード
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -176,7 +158,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * エラーメッセージ
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -185,7 +166,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * エラーメッセージ1
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -194,7 +174,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * エラーメッセージ2
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -203,7 +182,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 新性別(String)
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -212,7 +190,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * セッション情報
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -221,7 +198,6 @@ public class GoToCustomerEditConfirmPageAction2 extends ActionSupport implements
 	/**
 	 * 実行メソッド
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @return result 結果
 	 * @throws SQLException

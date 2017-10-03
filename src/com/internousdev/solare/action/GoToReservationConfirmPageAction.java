@@ -9,7 +9,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * GoToReservationConfirmAction 予約確認画面へ遷移するアクション
  *
- * @author 林美希
  * @since 2015/04/15
  * @version 1.0
  */
@@ -18,7 +17,6 @@ public class GoToReservationConfirmPageAction extends ActionSupport implements S
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -27,7 +25,6 @@ public class GoToReservationConfirmPageAction extends ActionSupport implements S
 	/**
 	 * 来店日時
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -36,7 +33,6 @@ public class GoToReservationConfirmPageAction extends ActionSupport implements S
 	/**
 	 * コース番号
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -45,7 +41,6 @@ public class GoToReservationConfirmPageAction extends ActionSupport implements S
 	/**
 	 * 予約時間
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -54,7 +49,6 @@ public class GoToReservationConfirmPageAction extends ActionSupport implements S
 	/**
 	 * 予約人数
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -63,7 +57,6 @@ public class GoToReservationConfirmPageAction extends ActionSupport implements S
 	/**
 	 * コース(String)
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -72,7 +65,6 @@ public class GoToReservationConfirmPageAction extends ActionSupport implements S
 	/**
 	 * セッション情報
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -81,7 +73,6 @@ public class GoToReservationConfirmPageAction extends ActionSupport implements S
 	/**
 	 * ユーザー遷移先リクエスト
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -90,7 +81,6 @@ public class GoToReservationConfirmPageAction extends ActionSupport implements S
 	/**
 	 * 実行メソッド
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @return result 結果
 	 */

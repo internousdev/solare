@@ -12,14 +12,12 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * 予約内容確認画面へ遷移するためのクラス
  *
- * @author 牧野秀徳
  * @since 2016/04/18
  */
 public class GoToPaymentInformationPageAction extends ActionSupport implements SessionAware {
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -28,7 +26,6 @@ public class GoToPaymentInformationPageAction extends ActionSupport implements S
 	/**
 	 * 予約日
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -37,7 +34,6 @@ public class GoToPaymentInformationPageAction extends ActionSupport implements S
 	/**
 	 * コース番号
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -46,7 +42,6 @@ public class GoToPaymentInformationPageAction extends ActionSupport implements S
 	/**
 	 * 予約時間
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -55,7 +50,6 @@ public class GoToPaymentInformationPageAction extends ActionSupport implements S
 	/**
 	 * 予約人数
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -64,7 +58,6 @@ public class GoToPaymentInformationPageAction extends ActionSupport implements S
 	/**
 	 * コース(String)
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -73,7 +66,6 @@ public class GoToPaymentInformationPageAction extends ActionSupport implements S
 	/**
 	 * セッション情報
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -82,7 +74,6 @@ public class GoToPaymentInformationPageAction extends ActionSupport implements S
 	/**
 	 * ユーザー遷移先リクエスト
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -91,7 +82,6 @@ public class GoToPaymentInformationPageAction extends ActionSupport implements S
 	/**
 	 * 実行メソッド
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @return result 結果
 	 */

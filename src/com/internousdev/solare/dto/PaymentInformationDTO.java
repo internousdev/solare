@@ -6,7 +6,6 @@ package com.internousdev.solare.dto;
 /**
  * tempテーブル情報を取得、格納するためのクラス
  *
- * @author Saori Maekawa
  * @since 1.0
  * @version 1.0
  */
@@ -14,7 +13,6 @@ public class PaymentInformationDTO {
 	/**
 	 * クレジットカード番号
 	 *
-	 * @author Saori Maekawa
 	 * @since 1.0
 	 * @version 1.0
 	 */
@@ -23,7 +21,6 @@ public class PaymentInformationDTO {
 	/**
 	 * クレジットカード名義
 	 *
-	 * @author Saori Maekawa
 	 * @since 1.0
 	 * @version 1.0
 	 */
@@ -32,7 +29,6 @@ public class PaymentInformationDTO {
 	/**
 	 * 有効期限(月/年)
 	 *
-	 * @author Saori Maekawa
 	 * @since 1.0
 	 * @version 1.0
 	 */
@@ -41,7 +37,6 @@ public class PaymentInformationDTO {
 	/**
 	 * セキュリティコード
 	 *
-	 * @author Saori Maekawa
 	 * @since 1.0
 	 * @version 1.0
 	 */

@@ -12,7 +12,6 @@ import com.opensymphony.xwork2.ActionSupport;
 
 /**
  * ReservationEditCompleteAction 既に同一日時に予約があるかをチェックするアクション
- * @author 佐藤裕也
  * @since 2015/04/23
  * @version 1.0
  */
@@ -21,7 +20,6 @@ public class ReservationEditCompleteAction extends ActionSupport implements Sess
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/23
 	 * @version 1.0
 	 */
@@ -34,7 +32,6 @@ public class ReservationEditCompleteAction extends ActionSupport implements Sess
 	/**
 	 * セッション情報
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/23
 	 * @version 1.0
 	 */
@@ -43,7 +40,6 @@ public class ReservationEditCompleteAction extends ActionSupport implements Sess
 	/**
 	 * メッセージ
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/23
 	 * @version 1.0
 	 */
@@ -52,7 +48,6 @@ public class ReservationEditCompleteAction extends ActionSupport implements Sess
 	/**
 	 * 予約番号
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/23
 	 * @version 1.0
 	 */
@@ -61,7 +56,6 @@ public class ReservationEditCompleteAction extends ActionSupport implements Sess
 	/**
 	 * コース番号
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/23
 	 * @version 1.0
 	 */
@@ -70,7 +64,6 @@ public class ReservationEditCompleteAction extends ActionSupport implements Sess
 	/**
 	 * 予約人数
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/23
 	 * @version 1.0
 	 */
@@ -79,7 +72,6 @@ public class ReservationEditCompleteAction extends ActionSupport implements Sess
 	/**
 	 * 予約日
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/23
 	 * @version 1.0
 	 */
@@ -88,7 +80,6 @@ public class ReservationEditCompleteAction extends ActionSupport implements Sess
 	/**
 	 * 予約時間
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/23
 	 * @version 1.0
 	 */
@@ -97,7 +88,6 @@ public class ReservationEditCompleteAction extends ActionSupport implements Sess
 	/**
 	 * コース番号（A,B,C）
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/23
 	 * @version 1.0
 	 */

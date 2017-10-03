@@ -3,7 +3,6 @@ package com.internousdev.solare.dto;
 /**
  * GetSeatInfoDTO ゲットシートインフォディーティーオー
  *
- * @author 佐藤裕也
  * @since 2015/03/06
  * @version 1.0
  */
@@ -12,7 +11,6 @@ public class GetSeatInfoDTO {
 	/**
 	 * 日付
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/03/06
 	 * @version 1.0
 	 */
@@ -21,7 +19,6 @@ public class GetSeatInfoDTO {
 	/**
 	 * 来店曜日
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/03/06
 	 * @version 1.0
 	 */
@@ -30,7 +27,6 @@ public class GetSeatInfoDTO {
 	/**
 	 * 最大予約人数
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/03/06
 	 * @version 1.0
 	 */
@@ -39,7 +35,6 @@ public class GetSeatInfoDTO {
 	/**
 	 * 空席数
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/03/06
 	 * @version 1.0
 	 */

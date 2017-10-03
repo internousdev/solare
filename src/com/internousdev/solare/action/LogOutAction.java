@@ -9,7 +9,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * LogOutAction ログアウトするためのアクション
  *
- * @author 林美希
  * @since 2015/04/15
  * @version 1.0
  */
@@ -18,7 +17,6 @@ public class LogOutAction extends ActionSupport implements SessionAware {
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -31,7 +29,6 @@ public class LogOutAction extends ActionSupport implements SessionAware {
 	/**
 	 * セッション情報
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -40,7 +37,6 @@ public class LogOutAction extends ActionSupport implements SessionAware {
 	/**
 	 * メッセージ
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -49,7 +45,6 @@ public class LogOutAction extends ActionSupport implements SessionAware {
 	/**
 	 * ログアウトフラグ
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */

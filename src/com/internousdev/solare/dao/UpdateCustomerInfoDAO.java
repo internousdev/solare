@@ -10,7 +10,6 @@ import com.internousdev.solare.util.DBConnector;
 /**
  * UpdateCustomerInfoDAO 会員情報更新
  *
- * @author 佐藤裕也
  * @since 2015/04/16
  * @version 1.0
  */
@@ -19,7 +18,7 @@ public class UpdateCustomerInfoDAO {
 	/**
 	 * 会員UniqueID取得メソッド
 	 *
-	 * @author 佐藤裕也
+
 	 * @since 2015/04/16
 	 * @return result UniqueID
 	 */
@@ -49,7 +48,7 @@ public class UpdateCustomerInfoDAO {
 	/**
 	 * 会員情報更新メソッド
 	 *
-	 * @author 佐藤裕也
+
 	 * @since 2015/04/16
 	 * @return result 結果
 	 */
@@ -88,7 +87,7 @@ public class UpdateCustomerInfoDAO {
 	/**
 	 * 会員ID管理テーブル操作メソッド
 	 *
-	 * @author 佐藤裕也
+
 	 * @since 2015/04/16
 	 * @return result 登録結果
 	 * @throws SQLException

@@ -5,7 +5,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * ReturnTopAction トップ画面に遷移するアクション
  *
- * @author 松本雄太
  * @since 2015/04/15
  * @version 1.0
  */
@@ -14,19 +13,14 @@ public class ReturnTopAction extends ActionSupport {
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
 	private static final long serialVersionUID = -9078684200857393863L;
-	/**
-	 *
-	 */
 
 	/**
 	 * 結果
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */

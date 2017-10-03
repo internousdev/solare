@@ -9,7 +9,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * GoToMyPageAction マイページに遷移するためのアクション
  *
- * @author 松本雄太
  * @since 2015/04/14
  * @version 1.0
  */
@@ -18,7 +17,6 @@ public class GoToMyPageAction extends ActionSupport implements SessionAware {
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -27,7 +25,6 @@ public class GoToMyPageAction extends ActionSupport implements SessionAware {
 	/**
 	 * セッション情報
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -36,7 +33,6 @@ public class GoToMyPageAction extends ActionSupport implements SessionAware {
 	/**
 	 * エラーメッセージ
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -45,7 +41,6 @@ public class GoToMyPageAction extends ActionSupport implements SessionAware {
 	/**
 	 * ユーザーリクエスト
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -54,7 +49,6 @@ public class GoToMyPageAction extends ActionSupport implements SessionAware {
 	/**
 	 * カレントページ
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -63,7 +57,6 @@ public class GoToMyPageAction extends ActionSupport implements SessionAware {
 	/**
 	 * 実行メソッド
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/14
 	 * @return result 結果
 	 */

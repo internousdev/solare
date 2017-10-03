@@ -10,7 +10,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * GoToReservationPageAction 予約可能な曜日と時間を照会するためのクラス
  *
- * @author 岡部吉男
  * @since 2015/04/15
  * @version 1.0
  */
@@ -19,7 +18,6 @@ public class GoToReservationPageAction extends ActionSupport {
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -28,7 +26,6 @@ public class GoToReservationPageAction extends ActionSupport {
 	/**
 	 * 日付リスト
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -37,7 +34,6 @@ public class GoToReservationPageAction extends ActionSupport {
 	/**
 	 * 曜日リスト
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -46,7 +42,6 @@ public class GoToReservationPageAction extends ActionSupport {
 	/**
 	 * 空席情報リスト
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -55,7 +50,6 @@ public class GoToReservationPageAction extends ActionSupport {
 	/**
 	 * 席情報リスト
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -64,7 +58,6 @@ public class GoToReservationPageAction extends ActionSupport {
 	/**
 	 * チェック用席情報リスト
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -73,7 +66,6 @@ public class GoToReservationPageAction extends ActionSupport {
 	/**
 	 * メッセージ
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -82,7 +74,6 @@ public class GoToReservationPageAction extends ActionSupport {
 	/**
 	 * 実行メソッド
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/15
 	 * @version 1.0
 	 * @return result 結果
@@ -156,7 +147,6 @@ public class GoToReservationPageAction extends ActionSupport {
 	/**
 	 * 曜日変換メソッド
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/15
 	 * @version 1.0
 	 * @return WEEK 曜日

@@ -9,7 +9,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * LoginCheckAction
  *ログイン状態か判断し、ログインされていれば予約を続行するアクション
- * @author 半田晃邦
  * @since 2015/04/08 @version1.0
  */
 public class LoginCheckAction extends ActionSupport implements SessionAware {
@@ -17,7 +16,6 @@ public class LoginCheckAction extends ActionSupport implements SessionAware {
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/08 @version1.0
 	 */
 	private static final long serialVersionUID = 5451711762091842945L;
@@ -29,7 +27,6 @@ public class LoginCheckAction extends ActionSupport implements SessionAware {
 	/**
 	 * セッション情報
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/08 @version1.0
 	 */
 	private Map<String, Object> sessionMap;
@@ -37,7 +34,6 @@ public class LoginCheckAction extends ActionSupport implements SessionAware {
 	/**
 	 * 来店日時
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/08 @version1.0
 	 */
 	private String reservationDate;
@@ -45,7 +41,6 @@ public class LoginCheckAction extends ActionSupport implements SessionAware {
 	/**
 	 * コース番号
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/08 @version1.0
 	 */
 	private int courseNumber;
@@ -53,7 +48,6 @@ public class LoginCheckAction extends ActionSupport implements SessionAware {
 	/**
 	 * 予約時間
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/08 @version1.0
 	 */
 	private String reservationTime;
@@ -61,7 +55,6 @@ public class LoginCheckAction extends ActionSupport implements SessionAware {
 	/**
 	 * 予約人数
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/08 @version1.0
 	 */
 	private int numberOfPeople;
@@ -69,7 +62,6 @@ public class LoginCheckAction extends ActionSupport implements SessionAware {
 	/**
 	 * コース(String)
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/08 @version1.0
 	 */
 	private String courseString;

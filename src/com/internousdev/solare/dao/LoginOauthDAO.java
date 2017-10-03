@@ -13,7 +13,6 @@ import com.internousdev.solare.util.DBConnector;
 /**
  * LoginOauthDAO Oauthでログインに必要な情報を取得する為のクラス
  *
- * @author 堅田 一成
  * @since 1.0
  * @version 1.0
  */
@@ -22,7 +21,6 @@ public class LoginOauthDAO {
 	/**
 	 * 取得した情報を格納する為のDTO
 	 *
-	 * @author 堅田 一成
 	 * @since 1.0
 	 * @version 1.0
 	 */
@@ -31,7 +29,6 @@ public class LoginOauthDAO {
 	/**
 	 * 取得したユニークIDを照合するためのメソッド
 	 *
-	 * @author 堅田 一成
 	 * @since 1.0
 	 * @param userUniqueId
 	 *            OAuthのサービス先のユニークID
@@ -72,7 +69,6 @@ public class LoginOauthDAO {
 	/**
 	 * ユニークIDが無かったら作成
 	 *
-	 * @author 堅田 一成
 	 * @since 1.0
 	 * @param uniqueId
 	 *            OAuthのサービス先のユニークID
@@ -118,7 +114,6 @@ public class LoginOauthDAO {
 	/**
 	 * DTO取得メソッド
 	 *
-	 * @author 堅田 一成
 	 * @since 1.0
 	 * @return dto LoginOauthDTO参照変数
 	 */
@@ -129,7 +124,6 @@ public class LoginOauthDAO {
 	/**
 	 * DTO格納メソッド
 	 *
-	 * @author 堅田 一成
 	 * @since 1.0
 	 * @param dto
 	 *            ログインユーザDTO

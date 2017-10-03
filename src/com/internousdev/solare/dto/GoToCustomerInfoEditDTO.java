@@ -3,7 +3,6 @@ package com.internousdev.solare.dto;
 /**
  * GoToCustomerInfoEditDTO ゴートゥーカスタマーインフォエディットディーティーオー
  *
- * @author 岡部吉男
  * @since 2015/04/16
  * @version 1.0
  */
@@ -12,7 +11,6 @@ public class GoToCustomerInfoEditDTO {
 	/**
 	 * ユーザーID
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -21,7 +19,6 @@ public class GoToCustomerInfoEditDTO {
 	/**
 	 * 苗字
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -30,7 +27,6 @@ public class GoToCustomerInfoEditDTO {
 	/**
 	 * 名前
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -39,7 +35,6 @@ public class GoToCustomerInfoEditDTO {
 	/**
 	 * 氏名
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -48,7 +43,6 @@ public class GoToCustomerInfoEditDTO {
 	/**
 	 * メールアドレス
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -57,7 +51,6 @@ public class GoToCustomerInfoEditDTO {
 	/**
 	 * 性別
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -66,7 +59,6 @@ public class GoToCustomerInfoEditDTO {
 	/**
 	 * 性別
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */

@@ -5,7 +5,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * GoToNewUserAction 新規登録画面へ遷移するためのクラス
  *
- * @author 半田晃邦
  * @since 2015/04/06
  * @version 1.0
  */
@@ -14,7 +13,6 @@ public class GoToNewUserPageAction extends ActionSupport {
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/06
 	 * @version 1.0
 	 */
@@ -23,7 +21,6 @@ public class GoToNewUserPageAction extends ActionSupport {
 	/**
 	 * 来店日時
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/06
 	 * @version 1.0
 	 */
@@ -32,7 +29,6 @@ public class GoToNewUserPageAction extends ActionSupport {
 	/**
 	 * コース番号
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/06
 	 * @version 1.0
 	 */
@@ -41,7 +37,6 @@ public class GoToNewUserPageAction extends ActionSupport {
 	/**
 	 * 予約時間
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/06
 	 * @version 1.0
 	 */
@@ -50,7 +45,6 @@ public class GoToNewUserPageAction extends ActionSupport {
 	/**
 	 * 予約人数
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/06
 	 * @version 1.0
 	 */
@@ -59,7 +53,6 @@ public class GoToNewUserPageAction extends ActionSupport {
 	/**
 	 * コース(String)
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/06
 	 * @version 1.0
 	 */
@@ -68,7 +61,6 @@ public class GoToNewUserPageAction extends ActionSupport {
 	/**
 	 * ユーザー遷移先リクエスト
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/06
 	 * @version 1.0
 	 */
@@ -77,7 +69,6 @@ public class GoToNewUserPageAction extends ActionSupport {
 	/**
 	 * 実行メソッド
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/06
 	 * @return result 結果
 	 */

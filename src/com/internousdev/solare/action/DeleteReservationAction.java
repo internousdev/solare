@@ -11,7 +11,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * DeleteReservationAction 予約情報を削除するアクション
  *
- * @author 佐藤裕也
  * @since 2015/04/14
  * @version 1.0
  */
@@ -20,7 +19,6 @@ public class DeleteReservationAction extends ActionSupport implements SessionAwa
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @outhor 佐藤裕也
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -29,7 +27,6 @@ public class DeleteReservationAction extends ActionSupport implements SessionAwa
 	/**
 	 * セッション情報
 	 *
-	 * @outhor 佐藤裕也
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -38,7 +35,6 @@ public class DeleteReservationAction extends ActionSupport implements SessionAwa
 	/**
 	 * 予約番号
 	 *
-	 * @outhor 佐藤裕也
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -47,7 +43,6 @@ public class DeleteReservationAction extends ActionSupport implements SessionAwa
 	/**
 	 * 実行メソッド
 	 *
-	 * @outhor 佐藤裕也
 	 * @since 2015/04/14
 	 * @return result 結果
 	 */

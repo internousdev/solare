@@ -13,7 +13,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * ReservationCompleteAction
  *既に同一日時に予約がされているか確認、予約件数をチェックするアクション
- * @author 林美希
  * @since 2015/04/15
  * @version 1.0
  */
@@ -22,7 +21,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -35,7 +33,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * セッション情報
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -44,7 +41,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * メッセージ
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -53,7 +49,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * 来店日時
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -62,7 +57,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * コース番号
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -71,7 +65,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * 予約時間
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -80,7 +73,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * 予約人数
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -89,7 +81,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * コース(String)
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -98,7 +89,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * クレジットカードの下4ケタ
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -107,7 +97,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * クレジットカードトークン
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -116,7 +105,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * クレジットカード種別
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -125,7 +113,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * クレジットカード番号
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -134,7 +121,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * 有効期限(月)
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -143,7 +129,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * 有効期限(年)
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -152,7 +137,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * 有効期限(月/年)
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -161,7 +145,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * クレジットカード名義
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -170,7 +153,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * セキュリティコード
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -179,7 +161,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * 一時テーブルのID
 	 *
-	 * @author 林美希
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */

@@ -3,7 +3,6 @@ package com.internousdev.solare.dto;
 /**
  * OAUTHで顧客情報を格納する為のDTOクラス
  *
- * @author 堅田 一成
  * @since 1.0
  * @version 1.0
  */
@@ -12,7 +11,6 @@ public class LoginOauthDTO {
 	/**
 	 * 名前
 	 *
-	 * @author 堅田 一成
 	 * @since 1.0
 	 * @version 1.0
 	 */
@@ -21,7 +19,6 @@ public class LoginOauthDTO {
 	/**
 	 * ユーザーID
 	 *
-	 * @author 堅田 一成
 	 * @since 1.0
 	 * @version 1.0
 	 */

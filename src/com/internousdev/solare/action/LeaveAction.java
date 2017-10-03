@@ -12,7 +12,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * LeaveAction
  *会員情報を削除し、退会するアクション
- * @author 岩井晋太郎
  * @since 2015/04/21
  * @version 1.0
  */
@@ -21,7 +20,6 @@ public class LeaveAction extends ActionSupport implements SessionAware {
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/21
 	 * @version 1.0
 	 */
@@ -31,7 +29,6 @@ public class LeaveAction extends ActionSupport implements SessionAware {
 	/**
 	 * セッション情報
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/21
 	 * @version 1.0
 	 */

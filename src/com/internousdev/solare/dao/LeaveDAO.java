@@ -9,7 +9,6 @@ import com.internousdev.solare.util.DBConnector;
 /**
  * LeaveDAO Twitterユーザー情報とユーザー情報を削除し、退会するためのクラス
  *
- * @author 岩井晋太郎
  * @since 2015/04/23
  * @version 1.0
  *
@@ -19,7 +18,6 @@ public class LeaveDAO {
 	/**
 	 * ユーザー情報削除メソッド
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/23
 	 * @return result 結果
 	 * @throws SQLException
@@ -53,7 +51,6 @@ public class LeaveDAO {
 	/**
 	 * 退会日時更新メソッド
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/23
 	 * @return result 結果
 	 * @throws SQLException
@@ -84,7 +81,6 @@ public class LeaveDAO {
 	/**
 	 * Twitterユーザー情報削除メソッド
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/23
 	 * @return result 結果
 	 * @throws SQLException

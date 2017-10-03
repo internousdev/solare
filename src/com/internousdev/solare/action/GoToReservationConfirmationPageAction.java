@@ -13,7 +13,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * 予約内容確認画面へ遷移するためのクラス
  *
- * @author 牧野秀徳
  * @since 2016/04/18
  */
 public class GoToReservationConfirmationPageAction extends ActionSupport implements SessionAware {
@@ -21,7 +20,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -30,7 +28,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * コース番号
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -39,7 +36,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * 予約時間
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -48,7 +44,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * 予約人数
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -57,7 +52,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * コース(String)
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -66,7 +60,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * 支払い方法
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -75,7 +68,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * クレジットカード種別
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -84,7 +76,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * クレジットカード番号
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -93,7 +84,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * 有効期限(月)
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -102,7 +92,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * 有効期限(年)
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -111,7 +100,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * クレジットカード名義
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -120,7 +108,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * セキュリティコード
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -129,7 +116,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * トークン
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -138,7 +124,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * エラーメッセージ
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -147,7 +132,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * カレンダー
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -156,7 +140,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * セッション情報
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -166,7 +149,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	/**
 	 * ユーザー遷移先リクエスト
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -176,7 +158,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	 * セッションから予約情報を取得する。 クレジットカード情報に未入力があればエラーメッセージを表示し、エラーを返す。
 	 * 引数にてクレジットカード番号を指定する事で該当するものが存在するか確認できます。
 	 *
-	 * @author 牧野秀徳
 	 * @since 2016/04/18
 	 * @return 結果
 	 */
@@ -206,7 +187,6 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 		 * セッションから予約日付を取得する
 		 */
 		calendar = (String) sessionMap.get("Calendar");
-		System.out.println(calendar + 112312312);
 		String expirationDate = cardMonth + cardYear;
 
 		/*

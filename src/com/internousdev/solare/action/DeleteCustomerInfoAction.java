@@ -11,7 +11,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * DeleteCustomerInfoAction 会員情報を削除するアクション
  * 
- * @author 岡部吉男
  * @since 2015/04/14
  * @version 1.0
  */
@@ -20,7 +19,6 @@ public class DeleteCustomerInfoAction extends ActionSupport implements SessionAw
 	/**
 	 * 生成されたシリアルナンバー
 	 * 
-	 * @outhor 岡部吉男
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -28,7 +26,6 @@ public class DeleteCustomerInfoAction extends ActionSupport implements SessionAw
 	/**
 	 * セッション情報
 	 * 
-	 * @author 岡部吉男
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -37,7 +34,6 @@ public class DeleteCustomerInfoAction extends ActionSupport implements SessionAw
 	/**
 	 * 実行メソッド
 	 * 
-	 * @author 岡部吉男
 	 * @since 2015/04/14
 	 * @return result 結果
 	 */

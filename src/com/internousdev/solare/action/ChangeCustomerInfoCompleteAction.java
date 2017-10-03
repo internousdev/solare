@@ -11,7 +11,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * ChangeCustomerInfoCompleteAction 会員情報を変更するアクション
  *
- * @author 岡部吉男
  * @since 2015/04/16
  * @version 1.0
  */
@@ -19,7 +18,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -28,7 +26,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * 苗字
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -37,7 +34,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * 名前
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -46,7 +42,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * 電話番号
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -55,7 +50,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * メールアドレス
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -64,7 +58,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * 性別
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -73,7 +66,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * ユーザーID
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -82,7 +74,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * ユーザーパスワード
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -91,7 +82,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * 新苗字
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -100,7 +90,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * 新名前
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -109,7 +98,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * 新電話番号
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -118,7 +106,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * 新メールアドレス
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -127,7 +114,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * 新性別
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -136,7 +122,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * 新ユーザーID
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -145,7 +130,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * 新ユーザーパスワード
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -154,7 +138,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * エラーメッセージ
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -163,7 +146,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * 新性別(String)
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -172,7 +154,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * セッション情報
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -181,7 +162,6 @@ public class ChangeCustomerInfoCompleteAction extends ActionSupport implements S
 	/**
 	 * 実行メソッド
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @return result 結果
 	 * @throws SQLException

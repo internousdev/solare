@@ -17,7 +17,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * GoToReservationEditPageAction 予約可能な曜日と時間を照会し、予約を変更するためのクラス
  *
- * @author 岡部吉男
  * @since 2015/04/16
  * @version 1.0
  */
@@ -26,7 +25,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -35,7 +33,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * 日付リスト
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -44,7 +41,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * 曜日リスト
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -53,7 +49,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * 空席情報リスト
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -62,7 +57,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * 席情報リスト
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -71,7 +65,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * チェック用席情報リスト
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -80,7 +73,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * 予約情報リスト
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -89,7 +81,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * セッション情報
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -98,7 +89,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * メッセージ
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -107,7 +97,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * 予約番号
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -116,7 +105,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * コース番号
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -124,7 +112,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * 予約人数
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -132,7 +119,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * 予約日
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -140,7 +126,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * 予約時間
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -149,7 +134,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * コース番号(String)
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -158,7 +142,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * 実行メソッド
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @return result 結果
 	 */
@@ -268,7 +251,6 @@ public class GoToReservationEditPageAction extends ActionSupport implements Sess
 	/**
 	 * 曜日変換メソッド
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/16
 	 * @return WEEK 曜日
 	 */

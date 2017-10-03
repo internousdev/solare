@@ -3,7 +3,6 @@ package com.internousdev.solare.dto;
 /**
  * LoginDTO ログインディーティーオー
  *
- * @author 半田晃邦
  * @since 2015/04/06
  * @version 1.0
  */
@@ -12,7 +11,6 @@ public class LoginDTO {
 	/**
 	 * 苗字
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/06
 	 * @version 1.0
 	 */
@@ -21,7 +19,6 @@ public class LoginDTO {
 	/**
 	 * ユーザーID
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/06
 	 * @version 1.0
 	 */
@@ -30,7 +27,6 @@ public class LoginDTO {
 	/**
 	 * ユーザーパスワード
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/06
 	 * @version 1.0
 	 */
@@ -39,7 +35,6 @@ public class LoginDTO {
 	/**
 	 * アカウントナンバー
 	 *
-	 * @author 半田晃邦
 	 * @since 2015/04/06
 	 * @version 1.0
 	 */

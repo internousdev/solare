@@ -15,7 +15,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * AllDeleteReservationAction すべての予約情報を取り消すアクション
  *
- * @author 佐藤裕也
  * @since 2015/04/14
  * @version 1.0
  */
@@ -24,15 +23,12 @@ public class AllDeleteReservationAction extends ActionSupport implements Session
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @outhor 佐藤裕也
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
 	private static final long serialVersionUID = 6012778132245740299L;
 	/**
 	 * セッション情報
-	 *
-	 * @outhor 佐藤裕也
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -41,7 +37,6 @@ public class AllDeleteReservationAction extends ActionSupport implements Session
 	/**
 	 * 実行メソッド
 	 *
-	 * @outhor 佐藤裕也
 	 * @since 2015/04/14
 	 * @return result 結果
 	 */

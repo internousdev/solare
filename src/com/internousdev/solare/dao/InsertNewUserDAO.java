@@ -9,12 +9,10 @@ import java.util.List;
 
 import com.internousdev.solare.dto.LoginDTO;
 import com.internousdev.solare.util.DBConnector;
-import com.internousdev.solare.util.MySQLConnector;
 
 /**
  * InsertNewUserDAO ユーザーIDの重複がないかチェックし、なければ新規登録情報をDBに格納する
  *
- * @author 岩井晋太郎
  * @since 2015/04/16
  * @version 1.0
  */
@@ -23,7 +21,6 @@ public class InsertNewUserDAO {
 	/**
 	 * 会員情報リスト
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -32,7 +29,6 @@ public class InsertNewUserDAO {
 	/**
 	 * ユーザーID重複チェックメソッド
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/16
 	 * @version 1.0
 	 * @return result 結果
@@ -64,7 +60,6 @@ public class InsertNewUserDAO {
 	/**
 	 * 会員情報登録メソッド
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/16
 	 * @return result 登録結果
 	 * @throws SQLException
@@ -107,14 +102,14 @@ public class InsertNewUserDAO {
 	/**
 	 * 会員情報登録メソッド
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/16
 	 * @return result 登録結果
 	 * @throws SQLException
 	 */
 	public boolean isInsertCustomerInfo(String userId, String userPassword, String lastName, String firstName)
 			throws SQLException {
-		Connection con = MySQLConnector.getConnection("openconnect");
+		DBConnector db = new DBConnector();
+		Connection con = db.getConnection();
 
 		String user_name = lastName + firstName;
 		int rsCount = 0;
@@ -147,7 +142,6 @@ public class InsertNewUserDAO {
 	/**
 	 * 会員ID管理テーブル操作メソッド
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/16
 	 * @return result 登録結果
 	 * @throws SQLException
@@ -159,7 +153,7 @@ public class InsertNewUserDAO {
 		boolean result = true;
 		int rsCount = 0;
 		try {
-			String sql = "insert into customerID_info(customer_id,user_uuid,insert_date) value(?,?,now())";
+			String sql = "insert into customerid_info(customer_id,user_uuid,insert_date) value(?,?,now())";
 			PreparedStatement ps = con.prepareStatement(sql);
 			ps.setString(1, userId);
 			ps.setString(2, uniqueID);
@@ -181,26 +175,22 @@ public class InsertNewUserDAO {
 	/**
 	 * openconnect用の会員ID管理テーブル操作メソッド
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/16
 	 * @return result 登録結果
 	 * @throws SQLException
 	 */
 	private boolean isInsertCustomerIDinfo(String userId) throws SQLException {
-		Connection con = MySQLConnector.getConnection("openconnect");
+		DBConnector db = new DBConnector();
+		Connection con = db.getConnection();
 
-		System.out.println("ここに入りました！");
 		boolean result = true;
 		int rsCount = 0;
 		try {
-			System.out.println("tryに入りました！");
 			String sql = "insert into user(user_id,insert_date) value(?,?,now())";
 			PreparedStatement ps = con.prepareStatement(sql);
 			ps.setString(1, userId);
 			rsCount = ps.executeUpdate();
-			System.out.println("try終わり！");
 			if (rsCount > 0) {
-				System.out.println("if文に入りました！");
 				result = true;
 			}
 
@@ -211,7 +201,6 @@ public class InsertNewUserDAO {
 				con.close();
 			}
 		}
-		System.out.println("最終result！");
 		return result;
 	}
 

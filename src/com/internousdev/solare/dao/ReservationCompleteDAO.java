@@ -11,7 +11,6 @@ import com.internousdev.solare.util.DBConnector;
 /**
  * ReservationCompleteDAO 予約の可否をチェックし、問題がなければ予約情報をDBに格納するためのクラス
  *
- * @author 林美希
  * @since 2015/04/16
  * @version 1.0
  */
@@ -20,7 +19,6 @@ public class ReservationCompleteDAO {
 	/**
 	 * 同一日時予約チェックメソッド
 	 *
-	 * @author 林美希
 	 * @since 2015/04/16
 	 * @return result 予約の可否
 	 */
@@ -51,7 +49,6 @@ public class ReservationCompleteDAO {
 	/**
 	 * ユーザーフルネーム取得メソッド
 	 *
-	 * @author 林美希
 	 * @since 2015/04/16
 	 * @return result ユーザーフルネーム
 	 * @throws SQLException
@@ -91,7 +88,6 @@ public class ReservationCompleteDAO {
 	/**
 	 * ユーザー予約情報数検索メソッド
 	 *
-	 * @author 林美希
 	 * @since 2015/04/16
 	 * @return result ユーザー予約件数
 	 * @throws SQLException
@@ -123,7 +119,6 @@ public class ReservationCompleteDAO {
 	/**
 	 * 予約情報登録メソッド
 	 *
-	 * @author 林美希
 	 * @since 2015/04/16
 	 * @param numberOfPeople2
 	 * @return rsCount 登録結果
@@ -168,7 +163,6 @@ public class ReservationCompleteDAO {
 	/**
 	 * 空席情報テーブル操作メソッド
 	 *
-	 * @author 林美希
 	 * @since 2015/04/16
 	 * @throws SQLException
 	 */

@@ -13,7 +13,6 @@ import com.internousdev.solare.util.DBConnector;
 /**
  * EditReservationInfoDAO ユーザー予約情報リストから情報を検索し取得、変更を行うためのクラス
  *
- * @author 佐藤裕也
  * @since 2015/04/20
  * @version 1.0
  */
@@ -22,7 +21,7 @@ public class EditReservationInfoDAO {
 	/**
 	 * ユーザー予約情報リスト
 	 *
-	 * @author 佐藤裕也
+
 	 * @since 2015/04/20
 	 * @version 1.0
 	 */
@@ -31,7 +30,7 @@ public class EditReservationInfoDAO {
 	/**
 	 * ユーザー予約情報検索メソッド
 	 *
-	 * @author 佐藤裕也
+
 	 * @since 2015/04/20
 	 * @return result 結果
 	 * @throws SQLException
@@ -71,7 +70,7 @@ public class EditReservationInfoDAO {
 	/**
 	 * ユーザー予約情報変更メソッド
 	 *
-	 * @author 佐藤裕也
+
 	 * @since 2015/04/20
 	 */
 	public void editReservationInfo(String reservationDateTimeStamp, int cosutomerRervationNumber, int courseNumber,
@@ -95,7 +94,7 @@ public class EditReservationInfoDAO {
 	/**
 	 * 予約情報編集リスト取得メソッド
 	 *
-	 * @author 佐藤裕也
+
 	 * @since 2015/04/20
 	 * @return reservationInfoList 予約情報編集リスト
 	 */

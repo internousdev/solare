@@ -5,7 +5,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * GoToLeaveAction 退会するためのクラス
  *
- * @author 岡部吉男
  * @since 2015/04/14
  * @version 1.0
  */
@@ -14,7 +13,6 @@ public class GoToLeaveAction extends ActionSupport {
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -23,7 +21,6 @@ public class GoToLeaveAction extends ActionSupport {
 	/**
 	 * 実行メソッド
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/14
 	 * @return result 結果
 	 */

@@ -13,7 +13,6 @@ import com.internousdev.solare.util.DBConnector;
 /**
  * PaymentInformationDAO 入力されたクレジットカード情報を一時格納テーブルTempに格納すると同時にTempIDを取得する。
  *
- * @author HIDENORI MAKINO
  * @since 2016/04/16
  * @version 1.0
  */
@@ -22,7 +21,6 @@ public class PaymentInformationDAO implements SessionAware {
 	/**
 	 * セッション
 	 *
-	 * @author HIDENORI MAKINO
 	 * @since 2016/04/16
 	 * @version 1.0
 	 */
@@ -31,7 +29,6 @@ public class PaymentInformationDAO implements SessionAware {
 	/**
 	 * データベースに接続するためのインターフェース
 	 *
-	 * @author HIDENORI MAKINO
 	 * @since 2016/04/16
 	 * @version 1.0
 	 */
@@ -40,7 +37,6 @@ public class PaymentInformationDAO implements SessionAware {
 	/**
 	 * 更新件数
 	 *
-	 * @author HIDENORI MAKINO
 	 * @since 2016/04/16
 	 * @version 1.0
 	 */
@@ -49,7 +45,6 @@ public class PaymentInformationDAO implements SessionAware {
 	/**
 	 * SQL文
 	 *
-	 * @author HIDENORI MAKINO
 	 * @since 2016/04/16
 	 * @version 1.0
 	 */
@@ -58,7 +53,6 @@ public class PaymentInformationDAO implements SessionAware {
 	/**
 	 * 一時テーブルのID
 	 *
-	 * @author HIDENORI MAKINO
 	 * @since 2016/04/16
 	 * @version 1.0
 	 */
@@ -67,7 +61,6 @@ public class PaymentInformationDAO implements SessionAware {
 	/**
 	 * SQL文を送るための準備
 	 *
-	 * @author HIDENORI MAKINO
 	 * @since 2016/04/16
 	 * @version 1.0
 	 */
@@ -76,7 +69,6 @@ public class PaymentInformationDAO implements SessionAware {
 	/**
 	 * 有効期限(月/年)
 	 *
-	 * @author HIDENORI MAKINO
 	 * @since 2016/04/16
 	 * @version 1.0
 	 */
@@ -88,7 +80,6 @@ public class PaymentInformationDAO implements SessionAware {
 	 * 作成から1時間以上が経過していれば該当IDの情報を全て削除するメソッド<br>
 	 * </p>
 	 *
-	 * @author HIDENORI MAKINO
 	 * @since 2016/04/16
 	 * @return count 削除件数を返します。
 	 */
@@ -109,7 +100,6 @@ public class PaymentInformationDAO implements SessionAware {
 	/**
 	 * 入力された値を一時テーブルtempへ格納すると同時に、tempIdを取得するメソッド
 	 *
-	 * @author HIDENORI MAKINO
 	 * @since 2016/04/16
 	 * @param cardNumber
 	 *            クレジットカード番号
@@ -151,7 +141,6 @@ public class PaymentInformationDAO implements SessionAware {
 	/**
 	 * セッションを取得するメソッド
 	 *
-	 * @author HIDENORI MAKINO
 	 * @since 2016/04/16
 	 * @return session セッション
 	 */
@@ -162,7 +151,6 @@ public class PaymentInformationDAO implements SessionAware {
 	/**
 	 * セッションを格納するメソッド
 	 *
-	 * @author HIDENORI MAKINO
 	 * @since 2016/04/16
 	 * @param session
 	 *            セッション
@@ -174,7 +162,6 @@ public class PaymentInformationDAO implements SessionAware {
 	/**
 	 * 一時テーブルのIDを取得するメソッド
 	 *
-	 * @author HIDENORI MAKINO
 	 * @since 2016/04/16
 	 * @return tempId 一時テーブルのID
 	 */

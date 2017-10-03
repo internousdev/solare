@@ -13,7 +13,6 @@ import com.internousdev.solare.util.DBConnector;
 /**
  * GetSeatinfoDAO 空席情報の検索、追加を行うためのクラス
  *
- * @author 佐藤裕也
  * @since 2015/04/14
  * @version 1.0
  */
@@ -22,7 +21,7 @@ public class SearchInfoDAO {
 	/**
 	 * 予約情報リスト
 	 *
-	 * @author 佐藤裕也
+
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -31,7 +30,7 @@ public class SearchInfoDAO {
 	/**
 	 * 空席情報リスト
 	 *
-	 * @author 佐藤裕也
+
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -40,7 +39,6 @@ public class SearchInfoDAO {
 	/**
 	 * 空席情報件数検索メソッド
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/14
 	 * @return reCount 件数
 	 * @throws SQLException
@@ -76,7 +74,6 @@ public class SearchInfoDAO {
 	/**
 	 * 空席情報追加メソッド
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/14
 	 * @throws SQLException
 	 */
@@ -106,7 +103,6 @@ public class SearchInfoDAO {
 	/**
 	 * 空席情報追加メソッド
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/14
 	 * @throws SQLException
 	 */
@@ -135,7 +131,6 @@ public class SearchInfoDAO {
 	/**
 	 * 空席情報検索メソッド
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/14
 	 * @throws SQLException
 	 */
@@ -167,7 +162,6 @@ public class SearchInfoDAO {
 	/**
 	 * 予約情報リスト取得メソッド
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/14
 	 * @param checkRecordList
 	 *            予約情報
@@ -179,7 +173,6 @@ public class SearchInfoDAO {
 	/**
 	 * 空席情報リスト取得メソッド
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/14
 	 * @param seatInfoList
 	 *            空席情報

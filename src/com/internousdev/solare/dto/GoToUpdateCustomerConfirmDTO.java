@@ -3,7 +3,6 @@ package com.internousdev.solare.dto;
 /**
  * GoToUpdateCustomerConfirmDTO ゴートゥーアップデートカスタマーコンファームディーティーオー
  *
- * @author 松本雄太
  * @since 2015/4/20
  * @version 1.0
  *
@@ -13,7 +12,6 @@ public class GoToUpdateCustomerConfirmDTO {
 	/**
 	 * 苗字
 	 *
-	 * @author 松本雄太
 	 * @since 2015/4/20
 	 * @version 1.0
 	 */
@@ -22,7 +20,6 @@ public class GoToUpdateCustomerConfirmDTO {
 	/**
 	 * 名前
 	 *
-	 * @author 松本雄太
 	 * @since 2015/4/20
 	 * @version 1.0
 	 */
@@ -31,7 +28,6 @@ public class GoToUpdateCustomerConfirmDTO {
 	/**
 	 * 電話番号
 	 *
-	 * @author 松本雄太
 	 * @since 2015/4/20
 	 * @version 1.0
 	 */
@@ -40,7 +36,6 @@ public class GoToUpdateCustomerConfirmDTO {
 	/**
 	 * メールアドレス
 	 *
-	 * @author 松本雄太
 	 * @since 2015/4/20
 	 * @version 1.0
 	 */
@@ -49,7 +44,6 @@ public class GoToUpdateCustomerConfirmDTO {
 	/**
 	 * 性別
 	 *
-	 * @author 松本雄太
 	 * @since 2015/4/20
 	 * @version 1.0
 	 */
@@ -58,7 +52,6 @@ public class GoToUpdateCustomerConfirmDTO {
 	/**
 	 * ユーザーID
 	 *
-	 * @author 松本雄太
 	 * @since 2015/4/20
 	 * @version 1.0
 	 */
@@ -67,7 +60,6 @@ public class GoToUpdateCustomerConfirmDTO {
 	/**
 	 * ユーザーパスワード
 	 *
-	 * @author 松本雄太
 	 * @since 2015/4/20
 	 * @version 1.0
 	 */

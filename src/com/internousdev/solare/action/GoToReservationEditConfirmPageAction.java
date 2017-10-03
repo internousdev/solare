@@ -5,7 +5,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * GoToReservationEditConfirmPageAction コースの変更を行い、確認画面に遷移するアクション
  *
- * @author 松本雄太
  * @since 2015/04/15
  * @version 1.0
  */
@@ -14,7 +13,6 @@ public class GoToReservationEditConfirmPageAction extends ActionSupport {
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -23,7 +21,6 @@ public class GoToReservationEditConfirmPageAction extends ActionSupport {
 	/**
 	 * 予約番号
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -32,7 +29,6 @@ public class GoToReservationEditConfirmPageAction extends ActionSupport {
 	/**
 	 * コース番号
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -41,7 +37,6 @@ public class GoToReservationEditConfirmPageAction extends ActionSupport {
 	/**
 	 * 予約人数
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -50,7 +45,6 @@ public class GoToReservationEditConfirmPageAction extends ActionSupport {
 	/**
 	 * 予約日
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -59,7 +53,6 @@ public class GoToReservationEditConfirmPageAction extends ActionSupport {
 	/**
 	 * 予約時間
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -67,7 +60,6 @@ public class GoToReservationEditConfirmPageAction extends ActionSupport {
 	/**
 	 * コース番号（String）
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -76,7 +68,6 @@ public class GoToReservationEditConfirmPageAction extends ActionSupport {
 	/**
 	 * 実行メソッド
 	 *
-	 * @author 松本雄太
 	 * @since 2015/04/15
 	 * @return result
 	 */

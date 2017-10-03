@@ -12,7 +12,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * NewUserRegisterCompleteAction
  *入力した新規登録情報をDAOに渡しDBに格納するアクション
- * @author 岩井晋太郎
  * @since 2015/04/15
  * @version 1.0
  */
@@ -21,7 +20,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -30,7 +28,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 	/**
 	 * 苗字
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -39,7 +36,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 	/**
 	 * 名前
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -48,7 +44,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 	/**
 	 * メールアドレス
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -57,7 +52,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 	/**
 	 * 性別
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -66,7 +60,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 	/**
 	 * ユーザーID
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -75,7 +68,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 	/**
 	 * ユーザーパスワード
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -84,7 +76,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 	/**
 	 * 電話番号
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -93,7 +84,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 	/**
 	 * 来店日時
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -102,7 +92,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 	/**
 	 * コース番号
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -111,7 +100,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 	/**
 	 * 予約時間
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -120,7 +108,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 	/**
 	 * 予約人数
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -129,7 +116,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 	/**
 	 * コース(String)
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -138,7 +124,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 	/**
 	 * ユーザー遷移先リクエスト
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -147,7 +132,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 	/**
 	 * UUID
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -171,20 +155,6 @@ public class NewUserRegisterCompleteAction extends ActionSupport implements Sess
 			result = SUCCESS;
 			return result;
 	}
-		/*LoginDAO dao2 = new LoginDAO();
-		if (dao2.isLoginCheck(userId, userPassword)) {
-			userInfoList = dao2.getUserInfoList();
-			sessionMap.put("lastName", userInfoList.get(0).getLastName());
-			sessionMap.put("userId", userInfoList.get(0).getUserId());
-			sessionMap.put("userPassword", userInfoList.get(0).getUserPassword());
-			sessionMap.put("accountNumber", userInfoList.get(0).getAccountNumber());
-			result = SUCCESS;
-		}
-		if (!userRequest.isEmpty() && userRequest.equals("goMyPage")) {
-			result = "goMyPage";
-		}
-		return result;
-	}*/
 
 	/**
 	 * セッション情報登録メソッド

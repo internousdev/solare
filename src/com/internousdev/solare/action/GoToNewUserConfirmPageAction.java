@@ -10,7 +10,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * GoToNewUserConfirmAction 新規登録情報の確認用のクラス
  *
- * @author 岩井晋太郎
  * @since 2015/04/15
  * @version 1.0
  */
@@ -19,7 +18,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -28,7 +26,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * 氏名
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -37,7 +34,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * 名前
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -46,7 +42,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * 苗字
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -55,7 +50,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * メールアドレス
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -64,7 +58,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * 性別
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -73,7 +66,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * ユーザーID
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -82,7 +74,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * パスワード
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -91,7 +82,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * パスワード2
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -100,7 +90,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * 電話番号
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -109,7 +98,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * メッセージ
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -118,7 +106,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * メッセージ2
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -127,7 +114,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * 性別(String)
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -136,7 +122,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * 来店日時
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -145,7 +130,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * コース番号
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -154,7 +138,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * 来店時間
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -163,7 +146,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * 予約人数
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -172,7 +154,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * コース(String)
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -181,7 +162,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * ユーザー遷移先リクエスト
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -190,7 +170,6 @@ public class GoToNewUserConfirmPageAction extends ActionSupport {
 	/**
 	 * 実行メソッド
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/15
 	 * @return result 結果
 	 */

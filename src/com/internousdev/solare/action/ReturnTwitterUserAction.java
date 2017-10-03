@@ -5,7 +5,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * ReturnTwitterUserAction リターンツイッターユーザーアクション
  *
- * @author 岩井晋太郎
  * @since 2015/04/16
  * @version 1.0
  */
@@ -14,7 +13,6 @@ public class ReturnTwitterUserAction extends ActionSupport {
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */
@@ -26,7 +24,6 @@ public class ReturnTwitterUserAction extends ActionSupport {
 	/**
 	 * 結果
 	 *
-	 * @author 岩井晋太郎
 	 * @since 2015/04/16
 	 * @version 1.0
 	 */

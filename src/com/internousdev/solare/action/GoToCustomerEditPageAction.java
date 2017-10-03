@@ -13,7 +13,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * GoToCustomerInfoEditAction 会員情報変更ページに遷移するアクション
  *
- * @author 岡部吉男
  * @since 2015/04/15
  * @version 1.0
  */
@@ -22,7 +21,6 @@ public class GoToCustomerEditPageAction extends ActionSupport implements Session
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -31,7 +29,6 @@ public class GoToCustomerEditPageAction extends ActionSupport implements Session
 	/**
 	 * セッション情報
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -40,7 +37,6 @@ public class GoToCustomerEditPageAction extends ActionSupport implements Session
 	/**
 	 * 会員情報リスト
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
@@ -49,7 +45,6 @@ public class GoToCustomerEditPageAction extends ActionSupport implements Session
 	/**
 	 * 実行メソッド
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/15
 	 * @return result 結果
 	 */

@@ -14,7 +14,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * DeleteReservationDAO 予約情報削除
  *
- * @author 佐藤裕也
  * @since 2015/04/14
  * @version 1.0
  */
@@ -23,7 +22,6 @@ public class DeleteReservationDAO extends ActionSupport {
 	/**
 	 * シリアルナンバー
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -32,7 +30,6 @@ public class DeleteReservationDAO extends ActionSupport {
 	/**
 	 * 削除対象の情報をリスト化するメソッド
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/14
 	 * @param accountNumber
 	 * @return deleteReservationList 削除対象予約情報リスト
@@ -66,8 +63,6 @@ public class DeleteReservationDAO extends ActionSupport {
 
 	/**
 	 * 空席起き情報更新テーブルリフレッシュ操作メソッド
-	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/14
 	 * @param numberOfPpl
 	 *            予約人数
@@ -99,7 +94,6 @@ public class DeleteReservationDAO extends ActionSupport {
 	/**
 	 * 予約情報削除メソッド
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/14
 	 * @return rsCount 削除件数
 	 */
@@ -128,7 +122,6 @@ public class DeleteReservationDAO extends ActionSupport {
 	/**
 	 * 予約情報削除メソッド
 	 *
-	 * @author 佐藤裕也
 	 * @since 2015/04/14
 	 * @return reCount 削除件数
 	 */

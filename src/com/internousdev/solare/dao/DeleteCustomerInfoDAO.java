@@ -9,7 +9,6 @@ import com.internousdev.solare.util.DBConnector;
 /**
  * DeleteCustomerInfoDAO 会員情報削除
  *
- * @author 岡部吉男
  * @since 2015/04/14
  * @version 1.0
  */
@@ -18,7 +17,6 @@ public class DeleteCustomerInfoDAO {
 	/**
 	 * コネクション
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -27,7 +25,6 @@ public class DeleteCustomerInfoDAO {
 	/**
 	 * 会員情報削除メソッド
 	 *
-	 * @author 岡部吉男
 	 * @since 2015/04/14
 	 * @return rsCount 削除件数
 	 */

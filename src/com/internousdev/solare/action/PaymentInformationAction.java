@@ -11,13 +11,8 @@ import com.internousdev.solare.dao.PaymentInformationDAO;
 import com.opensymphony.xwork2.ActionSupport;
 
 /**
- * @author internous
- *
- */
-/**
  * PaymentInformationAction クレジットカードの情報を取得し、セッションに格納するクラス
  *
- * @author MASATERU IWATA
  * @version 1.0
  * @since 1.0
  */
@@ -30,7 +25,6 @@ public class PaymentInformationAction extends ActionSupport implements SessionAw
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author MASATERU IWATA
 	 * @version 1.0
 	 * @since 1.0
 	 *
@@ -40,7 +34,6 @@ public class PaymentInformationAction extends ActionSupport implements SessionAw
 	/**
 	 * セッション
 	 *
-	 * @author MASATERU IWATA
 	 * @version 1.0
 	 * @since 1.0
 	 */
@@ -49,7 +42,6 @@ public class PaymentInformationAction extends ActionSupport implements SessionAw
     /**
 	 * クレジットカード種別
 	 *
-	 * @author MASATERU IWATA
 	 * @version 1.0
 	 * @since 1.0
 	 */
@@ -58,7 +50,6 @@ public class PaymentInformationAction extends ActionSupport implements SessionAw
     /**
 	 * クレジットカード番号
 	 *
-	 * @author MASATERU IWATA
 	 * @version 1.0
 	 * @since 1.0
 	 */
@@ -67,7 +58,6 @@ public class PaymentInformationAction extends ActionSupport implements SessionAw
     /**
 	 * 有効期限(月)
 	 *
-	 * @author MASATERU IWATA
 	 * @version 1.0
 	 * @since 1.0
 	 */
@@ -76,7 +66,6 @@ public class PaymentInformationAction extends ActionSupport implements SessionAw
     /**
 	 * 有効期限(年)
 	 *
-	 * @author MASATERU IWATA
 	 * @version 1.0
 	 * @since 1.0
 	 */
@@ -85,7 +74,6 @@ public class PaymentInformationAction extends ActionSupport implements SessionAw
     /**
 	 * クレジットカード名義
 	 *
-	 * @author MASATERU IWATA
 	 * @version 1.0
 	 * @since 1.0
 	 */
@@ -94,7 +82,6 @@ public class PaymentInformationAction extends ActionSupport implements SessionAw
     /**
 	 * セキュリティコード
 	 *
-	 * @author MASATERU IWATA
 	 * @version 1.0
 	 * @since 1.0
 	 */
@@ -103,7 +90,6 @@ public class PaymentInformationAction extends ActionSupport implements SessionAw
     /**
 	 * 一時テーブルのID
 	 *
-	 * @author MASATERU IWATA
 	 * @version 1.0
 	 * @since 1.0
 	 */
@@ -112,7 +98,6 @@ public class PaymentInformationAction extends ActionSupport implements SessionAw
     /**
 	 * エラーメッセージ
 	 *
-	 * @author MASATERU IWATA
 	 * @version 1.0
 	 * @since 1.0
 	 */

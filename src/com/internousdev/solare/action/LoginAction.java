@@ -14,7 +14,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * LoginAction
  * ログインアクション
- * @author 半田晃邦
  * @since 2015/04/06
  * @version 1.0
  */
@@ -22,7 +21,6 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * アカウント情報を渡し、予約状況を取得して渡すアクション。
  *
- * @author 加藤隆也
  * @since 2016/04/18
  * @version 1.0
  */
@@ -31,7 +29,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * 生成されたシリアルナンバー
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -40,7 +37,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * ユーザーID
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -49,7 +45,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * ユーザーパスワード
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -58,7 +53,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * メッセージ
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -67,7 +61,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * セッション情報
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -76,7 +69,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * 来店日時
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -85,7 +77,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * コース番号
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -94,7 +85,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * 予約時間
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -103,7 +93,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * 予約人数
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -112,7 +101,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * 日付リスト
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -121,7 +109,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * 曜日リスト
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -130,7 +117,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * 空席情報リスト
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -139,7 +125,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * 席情報リスト
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -148,7 +133,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * チェック用席情報リスト
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -157,7 +141,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * コース番号
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -166,7 +149,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * ユーザーリクエスト
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
@@ -175,7 +157,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * ログアウトフラグ
 	 *
-	 * @author 加藤隆也
 	 * @since 2016/04/18
 	 * @version 1.0
 	 */
