@@ -27,16 +27,14 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	private static final long serialVersionUID = -4497600680372642661L;
 
 	/**
-	 *
-	 */
-
-	/**
 	 * セッション情報
 	 *
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
 	private Map<String, Object> sessionMap;
+
+	private String pay;
 
 	/**
 	 * メッセージ
@@ -234,7 +232,6 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 			e.printStackTrace();
 		}
 
-
 		if (insertCheck) {
 			result = SUCCESS;
 		} else {
@@ -251,7 +248,7 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	public void setSession(Map<String, Object> session) {
 		this.sessionMap = session;
 	}
-	
+
 	/**
 	 * メッセージ取得メソッド
 	 *
@@ -260,7 +257,7 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	public String getMessage() {
 		return message;
 	}
-	
+
 	/**
 	 * 予約日取得メソッド
 	 *
@@ -269,7 +266,7 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	public String getReservationDate() {
 		return reservationDate;
 	}
-	
+
 	/**
 	 * 予約日登録メソッド
 	 *
@@ -584,5 +581,21 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	public void setMessage(String message) {
 		this.message = message;
 	}
+
+	/**
+	 * @return pay
+	 */
+	public String getPay() {
+		return pay;
+	}
+
+	/**
+	 * @param pay セットする pay
+	 */
+	public void setPay(String pay) {
+		this.pay = pay;
+	}
+
+
 
 }

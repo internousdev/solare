@@ -21,7 +21,6 @@ public class SearchInfoDAO {
 	/**
 	 * 予約情報リスト
 	 *
-
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
@@ -30,7 +29,6 @@ public class SearchInfoDAO {
 	/**
 	 * 空席情報リスト
 	 *
-
 	 * @since 2015/04/14
 	 * @version 1.0
 	 */
