@@ -123,7 +123,6 @@ public class InsertNewUserDAO {
 			ps.setString(3, user_name);
 
 			rsCount = ps.executeUpdate();
-			System.out.println(rsCount);
 			if (rsCount > 0) {
 				result = isInsertCustomerIDinfo(userId);
 			}

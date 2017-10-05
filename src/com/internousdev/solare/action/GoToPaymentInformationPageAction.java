@@ -3,6 +3,8 @@
  */
 package com.internousdev.solare.action;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
@@ -80,12 +82,45 @@ public class GoToPaymentInformationPageAction extends ActionSupport implements S
 	private String userRequest;
 
 	/**
+	 * 日付未指定時のエラーメッセージ
+	 *
+	 * @since 2017/10/04
+	 * @version 1.1
+	 */
+	private String seletedDateErrorMessage;
+
+	/**
+	 * 日付リスト
+	 *
+	 * @since 2016/04/18
+	 * @version 1.0
+	 */
+	private List<String> tomorrowList = new ArrayList<String>();
+
+	/**
+	 * 曜日リスト
+	 *
+	 * @since 2016/04/18
+	 * @version 1.0
+	 */
+	private List<String> nextWeekList = new ArrayList<String>();
+
+	/**
+	 * 空席情報リスト
+	 *
+	 * @since 2016/04/18
+	 * @version 1.0
+	 */
+	private List<String> vacancyList = new ArrayList<String>();
+
+	/**
 	 * 実行メソッド
 	 *
 	 * @since 2016/04/18
 	 * @return result 結果
 	 */
 
+	@SuppressWarnings("unchecked")
 	public String execute() {
 
 		/*
@@ -114,6 +149,16 @@ public class GoToPaymentInformationPageAction extends ActionSupport implements S
 		sessionMap.put("Calendar", calendar);
 
 		String result = SUCCESS;
+
+		// 日付が指定されていない場合
+		if(calendar.equals("")) {
+			seletedDateErrorMessage = "ご予約の日時が指定されてません。";
+			tomorrowList = (List<String>) sessionMap.get("tomorrowList");
+			nextWeekList = (List<String>) sessionMap.get("nextWeekList");
+			vacancyList = (List<String>) sessionMap.get("vacancyList");
+			result = ERROR;
+		}
+
 		return result;
 	}
 
@@ -122,7 +167,7 @@ public class GoToPaymentInformationPageAction extends ActionSupport implements S
 	 *
 	 * @return calendar 予約日
 	 */
-	public String getcalendar() {
+	public String getCalendar() {
 		return calendar;
 	}
 
@@ -131,7 +176,7 @@ public class GoToPaymentInformationPageAction extends ActionSupport implements S
 	 *
 	 * @return calendar 予約日
 	 */
-	public void setcalendar(String calendar) {
+	public void setCalendar(String calendar) {
 		this.calendar = calendar;
 	}
 
@@ -245,6 +290,38 @@ public class GoToPaymentInformationPageAction extends ActionSupport implements S
 	public void setSession(Map<String, Object> sessionMap) {
 		this.sessionMap = sessionMap;
 
+	}
+
+	public String getSeletedDateErrorMessage() {
+		return seletedDateErrorMessage;
+	}
+
+	public void setSeletedDateErrorMessage(String seletedDateErrorMessage) {
+		this.seletedDateErrorMessage = seletedDateErrorMessage;
+	}
+
+	public List<String> getTomorrowList() {
+		return tomorrowList;
+	}
+
+	public void setTomorrowList(List<String> tomorrowList) {
+		this.tomorrowList = tomorrowList;
+	}
+
+	public List<String> getNextWeekList() {
+		return nextWeekList;
+	}
+
+	public void setNextWeekList(List<String> nextWeekList) {
+		this.nextWeekList = nextWeekList;
+	}
+
+	public List<String> getVacancyList() {
+		return vacancyList;
+	}
+
+	public void setVacancyList(List<String> vacancyList) {
+		this.vacancyList = vacancyList;
 	}
 
 }

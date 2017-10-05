@@ -97,7 +97,7 @@ width: 600px;
 
 				<tr>
 					<th class="item">Date</th>
-					<td><s:property value="calender" /></td>
+					<td><s:property value="calendar" /></td>
 				</tr>
 
 				<tr>
@@ -120,8 +120,8 @@ width: 600px;
 		<div style="width:500px; margin-right:auto; margin-left:auto; text-align:center;">
 			<p>上記の内容によろしいでしょうか？</p>
 			<form action="ReservationCompleteAction">
-							<input type=hidden name="reservationDate"
-								value="<s:property value="reservationDate" />">
+							<input type=hidden name="calendar"
+								value="<s:property value="calendar" />">
 							<input type=hidden name="courseNumber"
 								value="<s:property value="courseNumber" />">
 							<input type=hidden name="reservationTime"

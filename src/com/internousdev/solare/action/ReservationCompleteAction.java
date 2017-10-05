@@ -50,7 +50,7 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	 * @since 2015/04/15
 	 * @version 1.0
 	 */
-	private String reservationDate;
+	private String calendar;
 
 	/**
 	 * コース番号
@@ -170,17 +170,28 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	 * @return result 結果
 	 */
 	public String execute() throws SocketException {
-		card = (String) sessionMap.get("Card");
-		cardNumber = (String) sessionMap.get("CardNumber");
-		cardMonth = (String) sessionMap.get("CardMonth");
-		cardYear = (String) sessionMap.get("CardYear");
-		cardHolder = (String) sessionMap.get("CardHolder");
-		securityCode = (String) sessionMap.get("SecurityCode");
-		tempId = (int) sessionMap.get("TempId");
 
+		// 初期値
+		String pay = (String) sessionMap.get("pay");
 		String result = ERROR;
 		String reservationDateTimeStamp;
 		int reservationTimeInt = 0;
+
+		// 支払い方法が選択されていない場合はERROR
+		if(pay.equals(null)) {
+			return result;
+		}
+
+		// 支払い方法がクレジットカードの場合
+		if(!(pay.equals("Cash"))) {
+			card = (String) sessionMap.get("Card");
+			cardNumber = (String) sessionMap.get("CardNumber");
+			cardMonth = (String) sessionMap.get("CardMonth");
+			cardYear = (String) sessionMap.get("CardYear");
+			cardHolder = (String) sessionMap.get("CardHolder");
+			securityCode = (String) sessionMap.get("SecurityCode");
+		}
+
 		switch (courseNumber) {
 		case 0:
 			reservationTimeInt = 60;
@@ -207,7 +218,7 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 		default:
 			break;
 		}
-		reservationDateTimeStamp = reservationDate + " " + reservationTime;
+		reservationDateTimeStamp = calendar + " " + reservationTime;
 		ReservationCompleteDAO dao = new ReservationCompleteDAO();
 
 		boolean insertCheck = true;
@@ -224,7 +235,7 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 				userInfoMap = dao.getUserInfo((int) sessionMap.get("accountNumber"));
 				insertCheck = dao.isInsertReservation((int) sessionMap.get("accountNumber"), reservationNumber,
 						courseNumber, numberOfPeople, userInfoMap.get("fullName"), userInfoMap.get("userTel"),
-						reservationDate, reservationDateTimeStamp, reservationTimeInt);
+						calendar, reservationDateTimeStamp, reservationTimeInt);
 			} else {
 				message = "既に同一日時に既にご予約を頂いております。";
 			}
@@ -261,19 +272,19 @@ public class ReservationCompleteAction extends ActionSupport implements SessionA
 	/**
 	 * 予約日取得メソッド
 	 *
-	 * @return reservationDate 予約日
+	 * @return calendar 予約日
 	 */
-	public String getReservationDate() {
-		return reservationDate;
+	public String getCalendar() {
+		return calendar;
 	}
 
 	/**
 	 * 予約日登録メソッド
 	 *
-	 * @return reservationDate 予約日
+	 * @return calendar 予約日
 	 */
-	public void setReservationDate(String reservationDate) {
-		this.reservationDate = reservationDate;
+	public void setCalendar(String calendar) {
+		this.calendar = calendar;
 	}
 
 	/**

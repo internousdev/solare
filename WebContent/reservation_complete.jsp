@@ -89,7 +89,7 @@ button.button4:hover {
 
 			<tr>
 				<th class="item">Date</th>
-				<td class="field"><font color="black"><s:property value="reservationDate" /></font></td>
+				<td class="field"><font color="black"><s:property value="calendar" /></font></td>
 			</tr>
 
 			<tr>

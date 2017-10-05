@@ -86,7 +86,6 @@ public class GoToReservationConfirmPageAction extends ActionSupport implements S
 	 */
 	public String execute() {
 		String result = ERROR;
-		System.out.println("TEST");
 		if (!sessionMap.containsKey("userId") && !sessionMap.containsKey("AccessToken")) {
 			if (!(userRequest == null) && !userRequest.isEmpty()) {
 				return result;

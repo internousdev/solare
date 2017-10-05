@@ -155,6 +155,14 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	private String userRequest;
 
 	/**
+	 * 支払い方法未選択時のエラーメッセージ
+	 *
+	 * @since 2017/10/04
+	 * @version 1.1
+	 */
+	private String payNotFundErrorMessage;
+
+	/**
 	 * セッションから予約情報を取得する。 クレジットカード情報に未入力があればエラーメッセージを表示し、エラーを返す。
 	 * 引数にてクレジットカード番号を指定する事で該当するものが存在するか確認できます。
 	 *
@@ -223,6 +231,11 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 		 * @return SUCCESS/ERROR すべて成功した場合にSUCCESS 一つでも失敗した場合にERRORを返します。
 		 */
 
+		if(pay == null) {
+			payNotFundErrorMessage = "お支払い方法が未選択です。";
+			return ERROR;
+		}
+
 		if (!pay.equals("Cash")) {
 
 			/*
@@ -252,6 +265,10 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 				return ERROR;
 			}
 		}
+
+		// 支払い方法の値をSessionに格納
+		sessionMap.put("pay", pay);
+
 		return SUCCESS;
 
 	}
@@ -546,6 +563,14 @@ public class GoToReservationConfirmationPageAction extends ActionSupport impleme
 	public void setSession(Map<String, Object> sessionMap) {
 
 		this.sessionMap = sessionMap;
+	}
+
+	public String getPayNotFundErrorMessage() {
+		return payNotFundErrorMessage;
+	}
+
+	public void setPayNotFundErrorMessage(String payNotFundErrorMessage) {
+		this.payNotFundErrorMessage = payNotFundErrorMessage;
 	}
 
 }

@@ -267,6 +267,12 @@ public class LoginAction extends ActionSupport implements SessionAware {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+
+		// 空き日程情報をSessiinに格納
+		sessionMap.put("tomorrowList", tomorrowList);
+		sessionMap.put("nextWeekList", nextWeekList);
+		sessionMap.put("vacancyList", vacancyList);
+
 		return result;
 	}
 

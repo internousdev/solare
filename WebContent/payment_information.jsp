@@ -64,10 +64,20 @@ table {
 	margin-left: auto;
 	padding-left: 100px;
 }
+
+h3 {
+		text-align: center;
+		color: red;
+	}
 </style>
 
 <body style="color: white;">
 	<h1>Payment</h1>
+	<h3>
+		<span>
+			<s:property value="payNotFundErrorMessage" />
+		</span>
+	</h3>
 	<div>
 		<form name="form1" action="GoToReservationConfirmationPageAction">
 			<table>
@@ -81,7 +91,7 @@ table {
 
 				<tr>
 					<td><input type="radio" id="cash" name="pay" value="Cash"
-						onClick="changeDisabled()"> <label for="cash">現金支払い</label>
+						onClick="changeDisabled()" checked> <label for="cash">現金支払い</label>
 						<s:property value="pay" /></td>
 				</tr>
 

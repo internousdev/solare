@@ -4,122 +4,112 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<!--BootStrap読み込み-->
+	<!--BootStrap読み込み-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <script src="js/bootstrap.min.js"></script>
+	<!-- フォントの読み込み -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" type="favicon.ico" href="../img/favicon.ico">
+	<!--外部cssファイルの読み込み  -->
+	<link href="css/design.css" rel="stylesheet" type="text/css">
+	<!-- jQuery読み込み -->
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/easyselectbox.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/i18n/jquery.ui.datepicker-ja.min.js"></script>
+	<script>
+		  $(function() {
+		    $("#datepicker").datepicker();
+		  });
+	</script>
+	<script type="text/javascript">
+		(function($) {
+			$('.easy-select-box').easySelectBox({
+				speed : 200
+			});
+		})(jQuery);
+	</script>
+	<style>
+		input{
 
-<!-- フォントの読み込み -->
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+		  border:1px solid #525252;     /* 枠線の装飾 */
 
-<link rel="shortcut icon" type="favicon.ico" href="../img/favicon.ico">
+		  background-color: #fff;   /* 背景色 */
 
-<!--外部cssファイルの読み込み  -->
-<link href="css/design.css" rel="stylesheet" type="text/css">
+		  border-radius: 3px;         /* CSS3 */
 
-<!-- jQuery読み込み -->
-<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-<script type="text/javascript" src="js/easyselectbox.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/i18n/jquery.ui.datepicker-ja.min.js"></script>
+		  -moz-border-radius: 20px;    /* Firefox */
 
-<script>
-  $(function() {
-    $("#datepicker").datepicker();
-  });
-</script>
-<script type="text/javascript">
-	(function($) {
-		$('.easy-select-box').easySelectBox({
-			speed : 200
-		});
-	})(jQuery);
-</script>
+		  -webkit-border-radius: 20px; /* Safari,Chrome */
+		  font-size:20px;
+		}
+	/*ボタンデザインのcss*/
+	button.button4 {
+		margin-top:20px;
+		margin-right:10px;
+		margin-left:10px;
 
-<style>
+	border-color:white;
+	    /* 文字サイズを1.4emに指定 */
+	    font-size: 1.4em;
 
-input{
-
-  border:1px solid #525252;     /* 枠線の装飾 */
-
-  background-color: #fff;   /* 背景色 */
-
-  border-radius: 3px;         /* CSS3 */
-
-  -moz-border-radius: 20px;    /* Firefox */
-
-  -webkit-border-radius: 20px; /* Safari,Chrome */
-  font-size:20px;
-}
-
-
-/*ボタンデザインのcss*/
-button.button4 {
-	margin-top:20px;
-	margin-right:10px;
-	margin-left:10px;
-
-border-color:white;
-    /* 文字サイズを1.4emに指定 */
-    font-size: 1.4em;
-
-    /* 縦方向に10px、
-    * 横方向に30pxの余白を指定 */
-    padding: 10px 30px;
+	    /* 縦方向に10px、
+	    * 横方向に30pxの余白を指定 */
+	    padding: 10px 30px;
 
 
-    /* 背景色を濃い青色に指定 */
-    background-color: rgb(106, 12, 59);
+	    /* 背景色を濃い青色に指定 */
+	    background-color: rgb(106, 12, 59);
 
 
-    /* 文字色を白色に指定 */
-    color: #fff;
+	    /* 文字色を白色に指定 */
+	    color: #fff;
 
 
-    /* ボーダーをなくす */
-    border-style: none;
+	    /* ボーダーをなくす */
+	    border-style: none;
 
 
 
-button.button4:hover {
+	button.button4:hover {
 
-    /* 背景色を明るい青色に指定 */
-    background-color: rgb(150, 17, 84);
+	    /* 背景色を明るい青色に指定 */
+	    background-color: rgb(150, 17, 84);
 
-    /* 文字色を白色に指定 */
-    color: #fff;
-}
+	    /* 文字色を白色に指定 */
+	    color: #fff;
+	}
 
 
 
 
-.day {
-	float: left
-}
+	.day {
+		float: left
+	}
 
-.day1 {
-	clear: both
-}
+	.day1 {
+		clear: both
+	}
 
-.resbtn {
-	float: right;
-	margin-right: 30%;
-	margin-left: -20%
-}
-.msg{
-	color: red;
-	font-size:1.7em;
-	font-weight:bold
-}
+	.resbtn {
+		float: right;
+		margin-right: 30%;
+		margin-left: -20%
+	}
+	.msg{
+		color: red;
+		font-size:1.7em;
+		font-weight:bold
+	}
 
 
-#seat {background-color:white;
-margin-left:auto;
-margin-right:auto}
-</style>
+	#seat {background-color:white;
+	margin-left:auto;
+	margin-right:auto}
+	</style>
 </head>
 <body>
 
@@ -159,7 +149,15 @@ margin-right:auto}
 				<td><font color="black"><s:property value="vacancyList[6]" /></font></td>
 			</tr>
 		</table>
+
 		<s:form action="GoToPaymentInformationPageAction">
+			<h3>
+				<span>
+					<font color="red">
+						<s:property value="seletedDateErrorMessage" />
+					</font>
+				</span>
+			</h3>
 			<table class="table" style="margin-top:50px;margin-bottom:40px; ">
                 <caption style="color:#ffffff;">reservation</caption>
 				<tr>
@@ -191,7 +189,7 @@ margin-right:auto}
 					 <td>
 					 <div>
 
-					 <input type="text" id="datepicker" readonly="readonly" name="calendar" style="color:black;width:5.5em;font-family:sans-serif; ">
+					 <input type="text" id="datepicker" readonly="readonly" name="calendar" style="color:black;width:5.5em;font-family:sans-serif; " value="">
 
 					 <s:property value="calendar"/>
 
