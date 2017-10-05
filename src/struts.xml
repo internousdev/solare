@@ -42,6 +42,7 @@
 
 		<action name="GoToPaymentInformationPageAction" class="com.internousdev.solare.action.GoToPaymentInformationPageAction" method="execute">
 			<result name="success">/payment_information.jsp</result>
+			<result name="error">/reservation.jsp</result>
 		</action>
 
 			<action name="BackPageAction"
